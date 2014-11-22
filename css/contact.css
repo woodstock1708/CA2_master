@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#mapContainer {
+		padding: 20px 10% 0 10%;
+	}
+	 
+#mapElephant {
+	height: 400px;
+	margin: 0 auto;
+	border-style:solid;
+	border-widht:1px;
+	border-color:#DACFCA;
+}
+		  
+.textMarker {
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+#where-container{
+	padding: 20px 10% 0 10%;
+}
+#where-container-text{
+	text-align:left;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200;
+}
+
+

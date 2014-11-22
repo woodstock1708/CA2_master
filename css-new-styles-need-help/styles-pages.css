@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* 
+This CSS stylesheet gets applied to the INTERIOR PAGES on the website.
+It contains style rules for elements on the following pages: ABOUT, SERVICES, RESOURCES, PRICES, CONTACT.
+No style rules for index.html should be saved here.
+It needs to be applied to all pages except index.html.
+*/
+
+
+<!--------------------------------------------- ABOUT STYLES --------------------------------------------->
+
+.about-container{
+	display: block;
+	background-color:transparent; 
+    padding:0 10% 0 10%;
+}
+
+
+.about-text-container{
+	display:inline;
+	float:left;
+	text-align:left;
+	width:50%;
+	padding-top:3%;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200;
+}
+
+.about-image-container{
+	float:right;
+	width:50%;
+	padding-top:5%;
+	display: inline;	
+}
+
+.about-image-icon{
+	display:inline;
+	text-aling:center;
+	margin-left:45%;
+}
+
+
+.testimonial { 
+margin:20px 0 0 0; 
+background:#DACFCA;     
+padding: 10px 50px;     
+position: relative;     
+font-family:Arial, Helvetica, sans-serif; 
+font-size:1em;  
+text-align:left;  
+color:#2D1C23;   
+border-radius:0;    
+font-style: italic;
+font-weight:50;     
+} 
+
+.testimonial-text-person {
+font-family:Helvetica, sans-serif;  
+font-style:normal;
+font-weight:bold;
+text-align:left;
+font-weight:50; 
+color:#2D1C23;
+font-size:1em;
+margin-left:2.7%;  
+}
+
+.arrow-down {     
+width: 0;     
+height: 0;     
+border-left: 15px solid transparent;    
+border-right: 15px solid transparent;     
+border-top: 15px solid #DACFCA;     
+margin:0 0 0 2%; 
+} 
+
+<!--------------------------------------------- SERVICES, RESOURCES, PRICES STYLES --------------------------------------------->
+
+.service-container{
+	display: block;
+	background-color:transparent; 
+    padding:0 10% 0 10%;
+}
+
+.service-text-container{
+	display:inline;
+	float:left;
+	text-align:left;
+	width:50%;
+	padding-top:3%;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200;
+}
+
+.service-image-container{
+	float:right;
+	width:50%;
+	padding-top:5%;
+	display: inline;	
+}
+
+.service-image-icon{
+	display:inline;
+	text-aling:center;
+	margin-left:45%;
+	
+}
+
+.service-container-buttons{
+	display:block;
+	float:left;
+	width:100%;
+	padding-top:25px;
+	color:#FFF;
+	/*padding-top:5%;*/
+	/*margin-top:50px;*/
+	text-align:center;
+	color:#ffffff;
+}
+
+.service-button{
+	display:inline;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    border: 1px solid #EF7F11;
+	font-family: Helvetica, sans-serif;
+    text-align:center;
+    font-size: 15px;
+    font-weight:bold;
+    background: #EF7F11;
+	text-decoration:none;
+	padding:10px 15px 10px 15px;	
+}
+
+.service-container-buttons div:first-child {
+	background: #EF7F11;
+	margin-right:10px;	
+}
+
+.service-container-buttons div:last-child {
+	background: #EF7F11;
+	margin-left:10px;
+}
+
+.service-container-buttons a {
+	color:white;
+}
+
+<!--------------------------------------------- CONTACT STYLES --------------------------------------------->
+
+#mapContainer {
+		padding: 20px 10% 0 10%;
+	}
+	 
+#mapElephant {
+	height: 400px;
+	margin: 0 auto;
+	border-style:solid;
+	border-widht:1px;
+	border-color:#DACFCA;
+}
+		  
+.textMarker {
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+#where-container{
+	padding: 20px 10% 0 10%;
+}
+#where-container-text{
+	text-align:left;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200;
+}

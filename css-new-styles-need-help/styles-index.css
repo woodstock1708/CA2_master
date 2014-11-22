@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* 
+This CSS stylesheet gets applied ONLY TO THE HOME PAGE index.html 
+It contains specific style rules for the content on index.html  
+*/
+
+<!--------------------------------------------- EYE-CATCHER (HOME PAGE) --------------------------------------------->
+
+#eye-catcher{
+	background-color:#B9DACD;
+	width:auto;
+	boder:none;
+	margin-top:none;
+	margin-bottom:none;
+	height:25em;
+	padding-top:5%;
+}
+
+#button-container {
+	text-align:center;
+	margin-top:20px;
+}
+
+#btn {
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border: 1px solid #EF7F11;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight:bold;
+  background: #EF7F11;
+  padding: 10px 20px 10px 20px;
+  margin-top:0;
+  text-decoration: none;
+  text-shadow:0;
+}
+
+#btn:hover {
+  background: #DACFCA;
+  text-decoration: none;
+}
+
+#btn-sub {
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  border: 1px solid #EF7F11;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight:bold;
+  background: #EF7F11;
+  padding: 10px 15px 10px 15px;
+  margin-top:0;
+  text-decoration: none;
+  text-shadow:0;
+}
+
+<!--------------------------------------------- SERVICES (HOME PAGE) --------------------------------------------->
+
+.service-container-home{
+	display: block;
+	background-color:transparent; 
+    padding:0 10% 0 10%;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200
+}
+
+.box-service-icon{
+	float: left;
+	margin: 1em 1em;
+	background-color:transparent;
+	width: 29%;
+	height:75px;
+	text-align:center;
+}
+
+.box-service{
+	float: left;
+	margin: 1em 1em;
+	background-color:transparent;
+	width: 29%;
+	height:230px;
+}
+
+<!--------------------------------------------- ABOUT (HOME PAGE) --------------------------------------------->
+
+#about-home-container{
+	padding: 0 15% 5% 16%;
+}
+#about-home-container-text{
+	text-align:left;
+	font-size:0.8em;
+  	color:#2D1C23;
+  	font-weight:200;
+}

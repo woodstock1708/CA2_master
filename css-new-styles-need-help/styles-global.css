@@ -1,0 +1,275 @@
+@charset "utf-8";
+/* 
+This CSS stylesheet gets applied to ALL PAGES on the website.
+It contains GLOBAL STYLE RULES for the BODY, the HEADER, the EYE-CATCHER, SECTION TITLES, and the FOOTER.
+It needs to be saved in EVERY SINGLE .html DOCUMENT of the website.
+*/
+
+
+<!--------------------------------------------- GLOBAL STYLES --------------------------------------------->
+
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	background-color:transparent !important;
+	background-position: left top;
+	background-size : cover;
+	background-repeat:repeat;
+	background-origin:border-box;	
+	background-clip: border-box;	
+	background-image:url("img/paper2X.png") !important;
+}
+
+a{
+	text-decoration:none;
+	color:#EF7F11;
+	font-weight:600;
+}
+
+
+h1{
+	font-size:6em;
+	color:#2D1C23;
+	text-align:center;
+}
+
+div h1 {
+	padding:0;
+	border:none;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+
+h3{
+	font-size:2em;
+	color:#FFF;
+	font-weight:100;
+	text-align:center;
+}
+
+div h3 {
+	padding:0;
+	border:none;
+	margin:0 15% 0 15%;
+}
+
+
+<!--------------------------------------------- CLEAR CLASS STYLES --------------------------------------------->
+
+.clear { 
+clear: both; 
+}
+
+
+<!--------------------------------------------- HEADER STYLES --------------------------------------------->
+
+.social-buttons {
+    float:right;
+	background-color:transparent; 
+	margin:0;
+    padding:0;
+}
+
+.social-buttons-icons {
+	display:inline;
+	float:left;
+    width:3.5em;
+    height:2em;
+    margin-top:5%;
+	text-align:center;
+}
+
+
+#logo {
+    float:left;
+	background-color:transparent; 
+	margin:0;
+    padding:0;
+}
+
+#logo-icon {
+    display:inline;
+	float:left;
+	background-color:transparent; 
+	width:7em;
+    height:3em;
+	margin-left:25%;
+	margin-top:5%;
+    padding:0;
+}
+
+#nav-menu {
+	width:auto;
+	height:70px;
+	background-color:#2d1c23;
+} 
+
+.nav{
+    border:0; 
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+	
+}
+.nav li a{
+    text-decoration:non;
+	display:inline-block;
+    padding:20px;
+	color:#DACFCA;
+	font-weight:bold;	
+}
+
+.nav li a:hover{
+    text-decoration:none;
+	display:inline-block;
+    padding:20px;
+	color:white;
+	font-weight:bold;
+}
+
+<!--------------------------------------------- WHAT IS HR? ASK OLGA --------------------------------------------->
+hr{
+	color:#DACFCA;
+	height:0.1em;
+	border: 0; border-top: 1px solid #DACFCA;
+
+}
+
+div hr{
+	backgroung:#FFFFFF;
+	margin:3% 30% 0 30%;
+	
+}
+<!--------------------------------------------- WHAT IS HR? ASK OLGA --------------------------------------------->
+
+
+<!--------------------------------------------- EYE-CATCHER STYLES --------------------------------------------->
+
+.eye-catcher{
+	background-color:#B9DACD;
+	width:auto;
+	boder:none;
+	margin-top:none;
+	margin-bottom:none;
+	height:20.5em;
+	padding-top:5%;
+}
+
+.ec-icon {
+	float:right;
+	background-color:transparent; 
+	margin-top:2%;
+	padding-right:47%;
+
+}
+
+.ec-icon-image {
+	float:right;
+	background-color:transparent; 
+	text-align:center;
+	width:100px;
+}
+
+.ec-close{
+	background-color:#2d1c23;
+	width:auto;
+	boder:none;
+}
+
+<!--------------------------------------------- TITLE-SECTION STYLES --------------------------------------------->
+
+.container-title-section {
+  text-align:center;
+  font-size:1.5em;
+  color:#2D1C23;
+  font-weight:600;
+  padding-top:3%;
+}
+
+.title-section {
+  display: inline-block;
+  padding: 0 15px;
+  position: relative;
+}
+
+.title-section:before,
+.title-section:after {
+  background:#DACFCA;
+  content: "";
+  display:block;
+  height:1px;
+  position: absolute;
+  top: 50%;
+  width:90%;
+  text-align:center;
+}
+
+.title-section:before {
+  right: 100%;
+  text-align:center;
+}
+
+.title-section:after {
+  left: 100%;
+}
+
+<!--------------------------------------------- FOOTER STYLES --------------------------------------------->
+
+footer{
+	background-color:#2D1C23;
+	height:160px;
+	padding:0;
+	padding-top:1em;
+}
+
+.footer-container{
+	display: block;
+	background-color:transparent; 
+    padding:0 10% 0 10%;
+	margin-top:0;
+}
+
+.box-footer{
+	float: left;
+	margin:0em 1em;
+	background-color:transparent;
+	width: 29%;
+	height:150px;
+	color:#DACFCA;
+	font-size:0.75em;
+  	font-weight:100;
+}
+
+.box-footer-icon{
+	float: left;
+	margin-left: 8em; 
+	margin-top: 1.5em;
+	width: 40%;
+	height:150px;
+	text-align:center;
+	background-color:transparent;
+}
+
+.box-footer-title-icon{
+	display:inline;
+	float:left;
+	width: 15%;
+	height:15%;
+	margin-top:1em;
+	width:10%;
+	margin-bottom:none;
+}
+
+.box-footer-title-text{
+	display:inline;
+	float:right;
+	width:90%;
+	text-align:left;
+	padding-bottom:none;
+}
+

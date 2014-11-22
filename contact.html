@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/services.css" type="text/css">
+<link rel="stylesheet" href="css/contact.css" type="text/css">
+<link rel="stylesheet" href="css/footer.css" type="text/css">
+
+<title>Elephant English - Contact</title>
+
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+    
+
+	<script>
+		// JavaScript code to create and initialize a map using Google Maps
+		// Variable with latitude and longitude (reused in 2 places)
+		var myCenter=new google.maps.LatLng(53.344316,-6.236661);
+
+		// Create a new Google Maps object
+	  	function initialize() {
+        	var mapElephant = document.getElementById('mapElephant');
+	    	var mapOptions = {
+				// center the map using the previous local variable
+				center: myCenter,
+				// zoom
+				zoom:15,
+				// map type: street, satellite, etc
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+    		}
+    		var map = new google.maps.Map(mapElephant, mapOptions);
+			
+			// Set a marker on the center of the map
+			var marker=new google.maps.Marker({
+  				position:myCenter,
+				// Animated icon
+				//animation:google.maps.Animation.BOUNCE,
+				// Non-default icon
+				// icon:'img/telefono.png',
+				title: "Elephant English"
+ 			});
+			marker.setMap(map);
+			
+ 			var contentPopup = "Elephant English<br>";
+			contentPopup += "<span class='textMarker'>Hanover Quay</span><br>";
+			contentPopup += "<span class='textMarker'>Dublin 2 (Ireland)</span><br>"; 
+			contentPopup += "<span class='textMarker'>083 107 7784</span><br>"; 
+			
+			var infowindow = new google.maps.InfoWindow({
+  				content:contentPopup
+  			});
+			infowindow.open(map,marker);
+      	}
+	  
+	  	// Add an event listener to the window object that will call the initialize function once the page has loaded.
+	  	google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+</head>
+
+<body>
+
+<header>
+<div class="social-buttons">
+<div class="social-buttons-icons"><a href="https://www.facebook.com/ElephantEnglish" target="_blank"><img src="img/facebook.png" alt="facebook icon" width="50%"/></a></div>
+<div class="social-buttons-icons"><a href="https://twitter.com/ElephantEnglish" target="_blank"><img src="img/twitter.png" alt="twitter icon" width="50%"/></a></div>
+<div class ="social-buttons-icons"><a href="https://www.youtube.com/user/ElephantEnglishVideo" target="_blank"><img src="img/youtube.png" alt="youtube icon" width="50%"/></a></div>
+</div>
+
+<div id="logo">
+<div id="logo-icon"><a href="index.html"><img src="img/logo.png" alt="Elephant English" width="50%"/></a></div>
+</div>
+
+<div id="nav-menu">
+<ul class="nav">
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="services.html">SERVICES</a></li>
+<li><a href="resources.html">RESOURCES</a></li>
+<li><a href="prices.html">PRICES</a></li>
+<li><a href="contact.html">CONTACT</a></li>
+</ul>   	  
+</div>  
+
+</header>
+
+<div class="eye-catcher">
+<div><h1>Say hello!</h1></div>
+<div><h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 	aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3></div>
+<div class="ec-icon">
+<div class="ec-icon-image"><img src="img/quote-icon.png" alt="Elephant English" width="50%"/></div>
+</div>
+</div>
+
+<div class="ec-close">a</div>
+
+<div class="container-title-section">
+    <div class="title-section">Get in touch with Elephant English</div>
+</div>
+
+<div class="service-container">
+    <div class="service-text-container">
+        <p>Please don’t hesitate to get in touch with me to book a free level test. This will take about 45 minutes, and it will give us a chance to get to know each other and set some concrete goals for your progress. Give me a call, or send a text or email... and if I'm in class when you call and can't answer the phone, please please please leave a message!</p>
+        <ul>
+		<li>Mobile: 083 107 7784</li> 
+		<li>Calling from outside Ireland: (+353) 83 107 7784</li> 
+		<li><a href="mailto:elephantenglishonline@gmail.com?subject=More Information">Sending an email</a> is often easiest!</li>    
+		</ul>
+    </div>
+    <div class="service-text-container">
+        <div class="service-image-icon">
+            You can also use this contact form if you wish.
+        </div>
+    </div>		
+</div>
+
+<div class="clear"></div>
+    
+<div id="mapContainer">
+	<div id="mapElephant"></div>
+</div>
+
+<div class="container-title-section">
+    <div class="title-section">  It's very  easy to find the place!  </div>   
+</div>
+
+<div id="where-container">
+<div id="where-container-text">
+<h2>Where the lessons are held</h2>
+<p>I give lessons from my home on Hanover Quay, which is conveniently located in beautiful Grand Canal Square, Dublin 2, just a stone’s throw from the European headquarters of Facebook and Google. 
+When we have set a date for the level test, I will send you an email with the exact address and detailed directions.
+If you prefer, I can travel to your home or office; depending on the distance, a travel fee will be charged.</p>
+<h2>Getting here</h2>
+<p>Grand Canal Square is very easy to get to. It's about 1.5 km east of the main entrance to Trinity College and is served by six Dublin Bus routes. There are DART and LUAS stations nearby.</p>
+<ul>
+	<li>Dublin Bus: routes 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/1/" target="_blank">1</a>, 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/471/" target="_blank">47</a>, 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/56a/" target="_blank">56a</a>, and 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/77a/" target="_blank">77a</a>. 
+	These buses all go down Pearse Street. If you're coming from the city centre, get off at Grand Canal Quay, 
+	<a href="http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=map&searchquery=(53.342615,-6.239614,353)" target="_blank">stop 353</a>; 
+	if you're coming from Sandymount, get off at 
+	<a href="http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=map&searchquery=(53.342466,-6.239713,396)" target="_blank">stop 396</a></li>
+	
+	<li>Dublin Bus: routes 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/15a1/" target="_blank">15a</a> or 
+	<a href="http://www.dublinbus.ie/en/Your-Journey1/Timetables/All-Timetables/15b1/" target="_blank">15b</a>. 
+	But NOT route 15! These buses go from Rathmines through the city centre and along the north quays. Get off at the very last stop, Benson Street, 
+	<a href="http://www.dublinbus.ie/en/RTPI/Sources-of-Real-Time-Information/?searchtype=map&searchquery=(53.345185,-6.234327,7077)" target="_blank">stop 7077</a></li>
+	
+	<li>DART to 
+	<a href="https://www.google.ie/maps/dir/53.3442583,-6.2361961/Grand+Canal+Dock+Train+Station/@53.3412105,-6.242467,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48670eeb39fadbe1:0x5a869e34a2e83a96!2m2!1d-6.237957!2d53.339589!3e2" target="_blank">Grand Canal Dock Station</a>, then walk north to Grand Canal Square</li>
+	
+	<li>LUAS Red Line to 
+	<a href="https://www.google.ie/maps/dir/53.3442583,-6.2361961/Mayor+Square+-+NCI,+Ashtown,+Dublin/@53.3467167,-6.2441803,16z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x48670e8ce189d7ad:0xfb425eb58d37ded4!2m2!1d-6.243268!2d53.349204!3e2" target="_blank">Mayor Square/NCI</a>, then cross the Samuel Beckett Bridge</li>
+</ul>
+</div>
+</div>
+
+<div class="clear"></div>
+
+<br />
+
+<footer>
+<div class="footer-container">
+
+<div class="box-footer">
+<div class="box-footer-title-icon"><img src="img/sitemap-icon.png" alt="Elephant English" width="50%"/></div>
+<div class="box-footer-title-text"><h4>Quick links:</h4></div>
+<div class="clear"></div>
+
+<a href="index.html">home</a> // <a href="services.html">services</a> // <a href="about.html">about</a> // <a href="resources">resources</a> // <a href="prices">prices</a> // <a href="contact">contact</a><br>
+<p><h4>Copyright 2014 Elephant English</h4></p>
+</div>
+
+
+<div class="box-footer">
+<div class="box-footer-icon"><img src="img/logo.png" alt="Elephant English" width="50%"/></div>
+</div>
+
+<div class="box-footer">
+<div class="box-footer-title-icon"><img src="img/paper-plane-icon.png" alt="Elephant English" width="50%"/></div>
+<div class="box-footer-title-text"><h4>Contact Elephant English:</h4></div>
+<div class="clear"></div>
+
+· Reach me on my mobile:(+353) 83 107 7784 <br>
+· Send me an email: <a href="mailto:elephantenglishonline@gmail.com?subject=More Information">elephantenglishonline@gmail.com</a><br>
+
+</div>
+
+
+<div class="clear"></div>
+</footer>
+
+</body>
+</html>

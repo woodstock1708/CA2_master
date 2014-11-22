@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:Helvetica, sans-serif;
+	margin:0;
+	background-color:transparent !important;
+	background-position: left top;
+	background-size : cover;
+	background-repeat:repeat;
+	background-origin:border-box;	
+	background-clip: border-box;	
+	background-image:url("img/paper2X.png") !important;
+}
+a{
+	text-decoration:none;
+	color:#EF7F11;
+	font-weight:600;
+}
+
+footer{
+	background-color:#2D1C23;
+	height:160px;
+	padding:0;
+	padding-top:1em;
+}
+
+.footer-container{
+	display: block;
+	background-color:transparent; 
+    padding:0 10% 0 10%;
+	margin-top:0;
+}
+
+.box-footer{
+	float: left;
+	margin:0em 1em;
+	background-color:transparent;
+	width: 29%;
+	height:150px;
+	color:#DACFCA;
+	font-size:0.75em;
+  	font-weight:100;
+}
+
+
+.box-footer-icon{
+	float: left;
+	margin-left: 8em; 
+	margin-top: 1.5em;
+	width: 40%;
+	height:150px;
+	text-align:center;
+	background-color:transparent;
+}
+
+.box-footer-title-icon{
+	display:inline;
+	float:left;
+	width: 15%;
+	height:15%;
+	margin-top:1em;
+	width:10%;
+	margin-bottom:none;
+
+}
+
+.box-footer-title-text{
+	display:inline;
+	float:right;
+	width:90%;
+	text-align:left;
+	padding-bottom:none;
+
+}
+
+
+
+.clear { 
+clear: both; 
+}
+
